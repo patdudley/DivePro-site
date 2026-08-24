@@ -1,6 +1,6 @@
 [
   {
-    "generated_at": "2026-08-24T19:22:01",
+    "generated_at": "2026-08-24T19:51:44",
     "spot_slug": "la-jolla",
     "spot_name": "La Jolla",
     "location": "La Jolla, San Diego",
@@ -51,7 +51,7 @@
     "is_projected": false,
     "projected_from": null,
     "forecast_basis": "Open-Meteo marine components (coherent hourly swell)",
-    "report_text": "The model expects 15-24 ft of visibility, resulting in a B grade. Conditions are favorable overall, with dry recent conditions and an easing wave trend supporting useful clarity. Some swell energy, surface movement and wind-driven mixing keep the forecast below exceptional A-grade conditions.\n\nThe rising tide is a favorable signal. As water moves toward the next high tide at 7:40 PM, cleaner offshore water may move into La Jolla and support improving visibility.\n\nOverall, the forecast is favorable for diving. Sheltered coves and deeper water may hold the clearest conditions, while exposed coastline and sandy entries could be less consistent.",
+    "report_text": "The model expects 15-24 ft of visibility, resulting in a B grade. Conditions are favorable overall, with dry recent conditions and an easing wave trend supporting useful clarity. Some swell energy, surface movement and wind-driven mixing keep the forecast below exceptional A-grade conditions.\n\nThe tide contribution is more neutral because a reliable direction is not available. The next high tide at 7:40 PM could still change nearshore water movement, so local clarity may vary.\n\nOverall, the forecast is favorable for diving. Sheltered coves and deeper water may hold the clearest conditions, while exposed coastline and sandy entries could be less consistent.",
     "features": {
       "date": "2026-08-24",
       "coherent_swell_source": "hourly_max_height_event",
@@ -124,7 +124,7 @@
       "wind_wave_churn_proxy": 0.702,
       "wave_energy_wind_interaction": 866.82,
       "water_temp_estimate_f": 73.2,
-      "buoy_water_temp_f": 73.4,
+      "buoy_water_temp_f": 73.8,
       "buoy_water_temp_source": "ndbc_46254",
       "air_temp_max_f": 80.1,
       "air_temp_min_f": 67.1,
@@ -423,7 +423,7 @@
           "height_ft": 3.18
         }
       ],
-      "tide_phase": "rising",
+      "tide_phase": "unknown",
       "tide_next_event": {
         "time": "19:40",
         "height_ft": 5.68,
@@ -475,7 +475,7 @@
     "report_text_version": "v2-explanatory-three-paragraph"
   },
   {
-    "generated_at": "2026-08-24T19:22:01",
+    "generated_at": "2026-08-24T19:51:44",
     "spot_slug": "la-jolla",
     "spot_name": "La Jolla",
     "location": "La Jolla, San Diego",
@@ -598,7 +598,7 @@
       "wind_wave_churn_proxy": 2.488,
       "wave_energy_wind_interaction": 895.124,
       "water_temp_estimate_f": 74.2,
-      "buoy_water_temp_f": 73.4,
+      "buoy_water_temp_f": 73.8,
       "buoy_water_temp_source": "ndbc_46254",
       "air_temp_max_f": 77.9,
       "air_temp_min_f": 65.9,
@@ -920,7 +920,7 @@
     "report_text_version": "v2-explanatory-three-paragraph"
   },
   {
-    "generated_at": "2026-08-24T19:22:01",
+    "generated_at": "2026-08-24T19:51:44",
     "spot_slug": "la-jolla",
     "spot_name": "La Jolla",
     "location": "La Jolla, San Diego",
@@ -1044,7 +1044,7 @@
       "wind_wave_churn_proxy": 0.0,
       "wave_energy_wind_interaction": 1339.917,
       "water_temp_estimate_f": 74.8,
-      "buoy_water_temp_f": 73.4,
+      "buoy_water_temp_f": 73.8,
       "buoy_water_temp_source": "ndbc_46254",
       "air_temp_max_f": 88.0,
       "air_temp_min_f": 66.8,
@@ -1366,7 +1366,7 @@
     "report_text_version": "v2-explanatory-three-paragraph"
   },
   {
-    "generated_at": "2026-08-24T19:22:01",
+    "generated_at": "2026-08-24T19:51:44",
     "spot_slug": "la-jolla",
     "spot_name": "La Jolla",
     "location": "La Jolla, San Diego",
@@ -1489,7 +1489,7 @@
       "wind_wave_churn_proxy": 0.571,
       "wave_energy_wind_interaction": 730.181,
       "water_temp_estimate_f": 74.9,
-      "buoy_water_temp_f": 73.4,
+      "buoy_water_temp_f": 73.8,
       "buoy_water_temp_source": "ndbc_46254",
       "air_temp_max_f": 88.9,
       "air_temp_min_f": 75.1,
@@ -1811,7 +1811,7 @@
     "report_text_version": "v2-explanatory-three-paragraph"
   },
   {
-    "generated_at": "2026-08-24T19:22:01",
+    "generated_at": "2026-08-24T19:51:44",
     "spot_slug": "la-jolla",
     "spot_name": "La Jolla",
     "location": "La Jolla, San Diego",
@@ -1935,7 +1935,7 @@
       "wind_wave_churn_proxy": 0.623,
       "wave_energy_wind_interaction": 808.523,
       "water_temp_estimate_f": 75.0,
-      "buoy_water_temp_f": 73.4,
+      "buoy_water_temp_f": 73.8,
       "buoy_water_temp_source": "ndbc_46254",
       "air_temp_max_f": 92.5,
       "air_temp_min_f": 76.5,
@@ -2257,7 +2257,7 @@
     "report_text_version": "v2-explanatory-three-paragraph"
   },
   {
-    "generated_at": "2026-08-24T19:22:01",
+    "generated_at": "2026-08-24T19:51:44",
     "spot_slug": "la-jolla",
     "spot_name": "La Jolla",
     "location": "La Jolla, San Diego",
@@ -2381,7 +2381,7 @@
       "wind_wave_churn_proxy": 4.818,
       "wave_energy_wind_interaction": 581.996,
       "water_temp_estimate_f": 75.6,
-      "buoy_water_temp_f": 73.4,
+      "buoy_water_temp_f": 73.8,
       "buoy_water_temp_source": "ndbc_46254",
       "air_temp_max_f": 87.8,
       "air_temp_min_f": 77.1,
@@ -2703,7 +2703,7 @@
     "report_text_version": "v2-explanatory-three-paragraph"
   },
   {
-    "generated_at": "2026-08-24T19:22:01",
+    "generated_at": "2026-08-24T19:51:44",
     "spot_slug": "la-jolla",
     "spot_name": "La Jolla",
     "location": "La Jolla, San Diego",
@@ -2827,7 +2827,7 @@
       "wind_wave_churn_proxy": 1.26,
       "wave_energy_wind_interaction": 691.549,
       "water_temp_estimate_f": 75.3,
-      "buoy_water_temp_f": 73.4,
+      "buoy_water_temp_f": 73.8,
       "buoy_water_temp_source": "ndbc_46254",
       "air_temp_max_f": 83.0,
       "air_temp_min_f": 72.7,
@@ -3149,7 +3149,7 @@
     "report_text_version": "v2-explanatory-three-paragraph"
   },
   {
-    "generated_at": "2026-08-24T19:22:01",
+    "generated_at": "2026-08-24T19:51:44",
     "spot_slug": "la-jolla",
     "spot_name": "La Jolla",
     "location": "La Jolla, San Diego",
@@ -3273,7 +3273,7 @@
       "wind_wave_churn_proxy": 9.323,
       "wave_energy_wind_interaction": 1443.661,
       "water_temp_estimate_f": 74.8,
-      "buoy_water_temp_f": 73.4,
+      "buoy_water_temp_f": 73.8,
       "buoy_water_temp_source": "ndbc_46254",
       "air_temp_max_f": 81.6,
       "air_temp_min_f": 70.9,
@@ -3595,7 +3595,7 @@
     "report_text_version": "v2-explanatory-three-paragraph"
   },
   {
-    "generated_at": "2026-08-24T19:22:01",
+    "generated_at": "2026-08-24T19:51:44",
     "spot_slug": "la-jolla",
     "spot_name": "La Jolla",
     "location": "La Jolla, San Diego",
@@ -3719,7 +3719,7 @@
       "wind_wave_churn_proxy": 21.758,
       "wave_energy_wind_interaction": 806.097,
       "water_temp_estimate_f": 74.4,
-      "buoy_water_temp_f": 73.4,
+      "buoy_water_temp_f": 73.8,
       "buoy_water_temp_source": "ndbc_46254",
       "air_temp_max_f": 73.5,
       "air_temp_min_f": 70.9,
@@ -4041,7 +4041,7 @@
     "report_text_version": "v2-explanatory-three-paragraph"
   },
   {
-    "generated_at": "2026-08-24T19:22:01",
+    "generated_at": "2026-08-24T19:51:45",
     "spot_slug": "la-jolla",
     "spot_name": "La Jolla",
     "location": "La Jolla, San Diego",
@@ -4166,7 +4166,7 @@
       "wind_wave_churn_proxy": 0.0,
       "wave_energy_wind_interaction": 818.279,
       "water_temp_estimate_f": 74.3,
-      "buoy_water_temp_f": 73.4,
+      "buoy_water_temp_f": 73.8,
       "buoy_water_temp_source": "ndbc_46254",
       "air_temp_max_f": 83.0,
       "air_temp_min_f": 73.3,
