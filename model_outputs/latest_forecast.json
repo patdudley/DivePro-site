@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T12:31:13",
+  "generated_at": "2026-09-01T17:31:02",
   "spot_slug": "la-jolla",
   "spot_name": "La Jolla",
   "location": "La Jolla, San Diego",
@@ -100,7 +100,7 @@
     "ml_buoy_energy_wtd": 5.483,
     "ml_wind_dir_deg": 308,
     "ml_upwelling_wind": 0.927,
-    "ml_pressure_trend": 2.2,
+    "ml_pressure_trend": 2.0,
     "ml_sst_anomaly": 5.1,
     "ml_wave_trend": 0.31,
     "ml_wave_accel": -0.16,
@@ -123,10 +123,10 @@
     "wind_wave_churn_proxy": 50.268,
     "wave_energy_wind_interaction": 1316.301,
     "water_temp_estimate_f": 75.1,
-    "buoy_water_temp_f": 75.6,
+    "buoy_water_temp_f": 75.4,
     "buoy_water_temp_source": "ndbc_46254",
     "air_temp_max_f": 75.5,
-    "air_temp_min_f": 66.7,
+    "air_temp_min_f": 63.4,
     "tide_range_ft": 4.43,
     "wind_chart": [
       {
@@ -147,83 +147,83 @@
       },
       {
         "time": "04:00",
-        "speed_mph": 1.6
+        "speed_mph": 5.3
       },
       {
         "time": "05:00",
-        "speed_mph": 1.8
+        "speed_mph": 2.1
       },
       {
         "time": "06:00",
-        "speed_mph": 1.4
+        "speed_mph": 2.1
       },
       {
         "time": "07:00",
-        "speed_mph": 1.5
+        "speed_mph": 1.0
       },
       {
         "time": "08:00",
-        "speed_mph": 4.1
+        "speed_mph": 3.7
       },
       {
         "time": "09:00",
-        "speed_mph": 5.1
+        "speed_mph": 4.3
       },
       {
         "time": "10:00",
-        "speed_mph": 6.0
+        "speed_mph": 5.2
       },
       {
         "time": "11:00",
-        "speed_mph": 7.1
+        "speed_mph": 6.6
       },
       {
         "time": "12:00",
-        "speed_mph": 9.1
+        "speed_mph": 8.6
       },
       {
         "time": "13:00",
-        "speed_mph": 10.4
+        "speed_mph": 10.9
       },
       {
         "time": "14:00",
-        "speed_mph": 11.1
-      },
-      {
-        "time": "15:00",
         "speed_mph": 11.4
       },
       {
+        "time": "15:00",
+        "speed_mph": 11.3
+      },
+      {
         "time": "16:00",
-        "speed_mph": 11.2
+        "speed_mph": 10.3
       },
       {
         "time": "17:00",
-        "speed_mph": 10.6
+        "speed_mph": 10.0
       },
       {
         "time": "18:00",
-        "speed_mph": 9.5
+        "speed_mph": 8.9
       },
       {
         "time": "19:00",
-        "speed_mph": 8.4
+        "speed_mph": 7.3
       },
       {
         "time": "20:00",
-        "speed_mph": 6.9
+        "speed_mph": 6.7
       },
       {
         "time": "21:00",
-        "speed_mph": 6.9
+        "speed_mph": 6.1
       },
       {
         "time": "22:00",
-        "speed_mph": 6.5
+        "speed_mph": 5.8
       },
       {
         "time": "23:00",
-        "speed_mph": 6.5
+        "speed_mph": 5.5
       }
     ],
     "wave_chart": [
