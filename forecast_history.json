@@ -1,5 +1,19 @@
 [
   {
+    "archived_at": "2026-09-08T17:50:02Z",
+    "generated_at": "2026-09-08T17:41:06",
+    "date": "2026-09-08",
+    "location": "La Jolla, San Diego",
+    "grade": "D",
+    "numeric_score_0_100": 51,
+    "estimated_visibility_range_ft": [
+      5,
+      9
+    ],
+    "best_window": "Early morning to late morning before wind builds",
+    "report_text": "The model expects 5-9 ft of visibility, resulting in a D grade. Conditions are marginal, with swell energy, surface movement and wind-driven mixing creating significant pressure on visibility.\n\nThe rising tide is a favorable signal. As water moves toward the next high tide at 7:54 PM, cleaner offshore water may move into La Jolla and support improving visibility.\n\nOverall, visibility looks marginal. Divers should confirm local conditions before committing and favor sheltered coves or deeper water over shallow, sandy, or surge-exposed areas."
+  },
+  {
     "archived_at": "2026-09-08T00:03:49Z",
     "generated_at": "2026-09-07T21:51:07",
     "date": "2026-09-07",
