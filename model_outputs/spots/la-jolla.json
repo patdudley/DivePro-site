@@ -15,7 +15,7 @@
     "calibration_note": "La Jolla soft probabilistic model \u2014 development data only.  Prospective validation required before public accuracy claims.  See PROSPECTIVE_VALIDATION_PLAN.md."
   },
   "latest": {
-    "generated_at": "2026-09-28T15:17:04",
+    "generated_at": "2026-09-28T20:19:17",
     "spot_slug": "la-jolla",
     "spot_name": "La Jolla",
     "location": "La Jolla, San Diego",
@@ -24,24 +24,24 @@
     "numeric_score_0_100": 61,
     "grade": "C",
     "grade_probabilities": {
-      "F": 0.015595279140265993,
-      "D": 0.5015632714506455,
-      "C": 0.13021944044738118,
-      "B": 0.35262200896170737,
+      "F": 0.009486194630675814,
+      "D": 0.5046759062717406,
+      "C": 0.13102756494092263,
+      "B": 0.35481033415666086,
       "A": 0.0,
       "A+": 0.0
     },
     "raw_grade_probabilities": {
-      "F": 0.015595279140265993,
-      "D": 0.5015632714506455,
-      "C": 0.13021944044738118,
-      "B": 0.35262200896170737,
+      "F": 0.009486194630675814,
+      "D": 0.5046759062717406,
+      "C": 0.13102756494092263,
+      "B": 0.35481033415666086,
       "A": 0.0,
       "A+": 0.0
     },
     "most_likely_grade": {
       "grade": "D",
-      "probability": 0.5016
+      "probability": 0.5047
     },
     "model_source": "soft_probabilistic",
     "display_policy_version": "v4-bimodal-aware",
@@ -51,7 +51,7 @@
       14
     ],
     "estimated_visibility_mid_ft": 12.0,
-    "raw_expected_vis_ft": 11.99,
+    "raw_expected_vis_ft": 12.05,
     "guardrail_applied": false,
     "confidence": "medium",
     "best_window": "Early morning to late morning before wind builds",
@@ -66,7 +66,7 @@
     "is_projected": false,
     "projected_from": null,
     "forecast_basis": "Open-Meteo marine components (coherent hourly swell)",
-    "report_text": "The model expects 10-14 ft of visibility, resulting in a C grade. Conditions are moderately favorable overall, but the algorithm is seeing enough swell energy, surface movement and wind-driven mixing to prevent a clearer B-grade forecast.\n\nThe falling tide is an additional negative signal. As water moves toward the next low tide at 5:02 PM, visibility may gradually decline because the outgoing tide is less likely to bring cleaner offshore water into La Jolla.\n\nOverall, the forecast remains diveable, but clarity may vary by location and could be worse around shallow reefs, sandy bottoms and areas exposed to surge.",
+    "report_text": "The model expects 10-14 ft of visibility, resulting in a C grade. Conditions are moderately favorable overall, but the algorithm is seeing enough swell energy, surface movement and wind-driven mixing to prevent a clearer B-grade forecast.\n\nThe rising tide is a favorable signal. As water moves toward the next high tide at 11:11 PM, cleaner offshore water may move into La Jolla and support improving visibility.\n\nOverall, the forecast remains diveable, but clarity may vary by location and could be worse around shallow reefs, sandy bottoms and areas exposed to surge.",
     "features": {
       "date": "2026-09-28",
       "coherent_swell_source": "hourly_max_height_event",
@@ -114,9 +114,9 @@
       "ml_buoy_dir_deg": 201,
       "ml_buoy_exp": 0.656,
       "ml_buoy_energy_wtd": 7.325,
-      "ml_wind_dir_deg": 292,
-      "ml_upwelling_wind": 0.788,
-      "ml_pressure_trend": -1.8,
+      "ml_wind_dir_deg": 296,
+      "ml_upwelling_wind": 0.829,
+      "ml_pressure_trend": -1.9,
       "ml_sst_anomaly": 3.8,
       "ml_wave_trend": 0.71,
       "ml_wave_accel": 0.51,
@@ -139,10 +139,10 @@
       "wind_wave_churn_proxy": 26.493,
       "wave_energy_wind_interaction": 1837.677,
       "water_temp_estimate_f": 73.8,
-      "buoy_water_temp_f": 73.4,
+      "buoy_water_temp_f": 74.3,
       "buoy_water_temp_source": "ndbc_46254",
-      "air_temp_max_f": 76.5,
-      "air_temp_min_f": 66.0,
+      "air_temp_max_f": 76.8,
+      "air_temp_min_f": 63.5,
       "tide_range_ft": 5.89,
       "wind_chart": [
         {
@@ -175,31 +175,31 @@
         },
         {
           "time": "07:00",
-          "speed_mph": 3.5
-        },
-        {
-          "time": "08:00",
-          "speed_mph": 2.7
-        },
-        {
-          "time": "09:00",
-          "speed_mph": 3.1
-        },
-        {
-          "time": "10:00",
           "speed_mph": 4.0
         },
         {
+          "time": "08:00",
+          "speed_mph": 3.7
+        },
+        {
+          "time": "09:00",
+          "speed_mph": 4.1
+        },
+        {
+          "time": "10:00",
+          "speed_mph": 3.4
+        },
+        {
           "time": "11:00",
-          "speed_mph": 6.9
+          "speed_mph": 8.2
         },
         {
           "time": "12:00",
-          "speed_mph": 8.6
+          "speed_mph": 9.0
         },
         {
           "time": "13:00",
-          "speed_mph": 10.3
+          "speed_mph": 8.0
         },
         {
           "time": "14:00",
@@ -207,39 +207,39 @@
         },
         {
           "time": "15:00",
-          "speed_mph": 9.6
+          "speed_mph": 9.1
         },
         {
           "time": "16:00",
-          "speed_mph": 10.2
+          "speed_mph": 10.3
         },
         {
           "time": "17:00",
-          "speed_mph": 9.8
+          "speed_mph": 9.2
         },
         {
           "time": "18:00",
-          "speed_mph": 8.3
-        },
-        {
-          "time": "19:00",
-          "speed_mph": 8.4
-        },
-        {
-          "time": "20:00",
           "speed_mph": 7.9
         },
         {
+          "time": "19:00",
+          "speed_mph": 6.8
+        },
+        {
+          "time": "20:00",
+          "speed_mph": 5.2
+        },
+        {
           "time": "21:00",
-          "speed_mph": 5.4
+          "speed_mph": 4.2
         },
         {
           "time": "22:00",
-          "speed_mph": 3.0
+          "speed_mph": 2.2
         },
         {
           "time": "23:00",
-          "speed_mph": 2.1
+          "speed_mph": 3.7
         }
       ],
       "wave_chart": [
@@ -438,11 +438,11 @@
           "height_ft": 4.24
         }
       ],
-      "tide_phase": "falling",
+      "tide_phase": "rising",
       "tide_next_event": {
-        "time": "17:02",
-        "height_ft": 0.07,
-        "type": "L"
+        "time": "23:11",
+        "height_ft": 4.25,
+        "type": "H"
       },
       "tide_slack_windows": [
         {
@@ -489,16 +489,19 @@
     "camera_note": "Updated a few times daily from the Scripps Pier cam.",
     "report_text_version": "v2-explanatory-three-paragraph",
     "community_report": {
-      "visibility_ft": null,
-      "weight": 0.0,
+      "visibility_ft": [
+        15,
+        20
+      ],
+      "weight": 0.2,
       "confidence_label": "low",
-      "source_excerpt": null,
+      "source_excerpt": "Vis: 15-20ftSwell:\u00a02-3\u00a0ftSurface Temp: 70-74 \u00b0F High Tide 6.0 ft ~ 10:20 amLow Tide 0.07 ft ~ 5:02 pm\u00a0 The water is still looking hazy but pretty blue this morning, with viz sitting around 15\u201320 ft on the incoming tide. There\u2019s...",
       "error": null
     }
   },
   "tenDay": [
     {
-      "generated_at": "2026-09-28T15:17:04",
+      "generated_at": "2026-09-28T20:19:17",
       "spot_slug": "la-jolla",
       "spot_name": "La Jolla",
       "location": "La Jolla, San Diego",
@@ -507,24 +510,24 @@
       "numeric_score_0_100": 61,
       "grade": "C",
       "grade_probabilities": {
-        "F": 0.015595279140265993,
-        "D": 0.5015632714506455,
-        "C": 0.13021944044738118,
-        "B": 0.35262200896170737,
+        "F": 0.009486194630675814,
+        "D": 0.5046759062717406,
+        "C": 0.13102756494092263,
+        "B": 0.35481033415666086,
         "A": 0.0,
         "A+": 0.0
       },
       "raw_grade_probabilities": {
-        "F": 0.015595279140265993,
-        "D": 0.5015632714506455,
-        "C": 0.13021944044738118,
-        "B": 0.35262200896170737,
+        "F": 0.009486194630675814,
+        "D": 0.5046759062717406,
+        "C": 0.13102756494092263,
+        "B": 0.35481033415666086,
         "A": 0.0,
         "A+": 0.0
       },
       "most_likely_grade": {
         "grade": "D",
-        "probability": 0.5016
+        "probability": 0.5047
       },
       "model_source": "soft_probabilistic",
       "display_policy_version": "v4-bimodal-aware",
@@ -534,7 +537,7 @@
         14
       ],
       "estimated_visibility_mid_ft": 12.0,
-      "raw_expected_vis_ft": 11.99,
+      "raw_expected_vis_ft": 12.05,
       "guardrail_applied": false,
       "confidence": "medium",
       "best_window": "Early morning to late morning before wind builds",
@@ -549,7 +552,7 @@
       "is_projected": false,
       "projected_from": null,
       "forecast_basis": "Open-Meteo marine components (coherent hourly swell)",
-      "report_text": "The model expects 10-14 ft of visibility, resulting in a C grade. Conditions are moderately favorable overall, but the algorithm is seeing enough swell energy, surface movement and wind-driven mixing to prevent a clearer B-grade forecast.\n\nThe falling tide is an additional negative signal. As water moves toward the next low tide at 5:02 PM, visibility may gradually decline because the outgoing tide is less likely to bring cleaner offshore water into La Jolla.\n\nOverall, the forecast remains diveable, but clarity may vary by location and could be worse around shallow reefs, sandy bottoms and areas exposed to surge.",
+      "report_text": "The model expects 10-14 ft of visibility, resulting in a C grade. Conditions are moderately favorable overall, but the algorithm is seeing enough swell energy, surface movement and wind-driven mixing to prevent a clearer B-grade forecast.\n\nThe rising tide is a favorable signal. As water moves toward the next high tide at 11:11 PM, cleaner offshore water may move into La Jolla and support improving visibility.\n\nOverall, the forecast remains diveable, but clarity may vary by location and could be worse around shallow reefs, sandy bottoms and areas exposed to surge.",
       "features": {
         "date": "2026-09-28",
         "coherent_swell_source": "hourly_max_height_event",
@@ -597,9 +600,9 @@
         "ml_buoy_dir_deg": 201,
         "ml_buoy_exp": 0.656,
         "ml_buoy_energy_wtd": 7.325,
-        "ml_wind_dir_deg": 292,
-        "ml_upwelling_wind": 0.788,
-        "ml_pressure_trend": -1.8,
+        "ml_wind_dir_deg": 296,
+        "ml_upwelling_wind": 0.829,
+        "ml_pressure_trend": -1.9,
         "ml_sst_anomaly": 3.8,
         "ml_wave_trend": 0.71,
         "ml_wave_accel": 0.51,
@@ -622,10 +625,10 @@
         "wind_wave_churn_proxy": 26.493,
         "wave_energy_wind_interaction": 1837.677,
         "water_temp_estimate_f": 73.8,
-        "buoy_water_temp_f": 73.4,
+        "buoy_water_temp_f": 74.3,
         "buoy_water_temp_source": "ndbc_46254",
-        "air_temp_max_f": 76.5,
-        "air_temp_min_f": 66.0,
+        "air_temp_max_f": 76.8,
+        "air_temp_min_f": 63.5,
         "tide_range_ft": 5.89,
         "wind_chart": [
           {
@@ -658,31 +661,31 @@
           },
           {
             "time": "07:00",
-            "speed_mph": 3.5
-          },
-          {
-            "time": "08:00",
-            "speed_mph": 2.7
-          },
-          {
-            "time": "09:00",
-            "speed_mph": 3.1
-          },
-          {
-            "time": "10:00",
             "speed_mph": 4.0
           },
           {
+            "time": "08:00",
+            "speed_mph": 3.7
+          },
+          {
+            "time": "09:00",
+            "speed_mph": 4.1
+          },
+          {
+            "time": "10:00",
+            "speed_mph": 3.4
+          },
+          {
             "time": "11:00",
-            "speed_mph": 6.9
+            "speed_mph": 8.2
           },
           {
             "time": "12:00",
-            "speed_mph": 8.6
+            "speed_mph": 9.0
           },
           {
             "time": "13:00",
-            "speed_mph": 10.3
+            "speed_mph": 8.0
           },
           {
             "time": "14:00",
@@ -690,39 +693,39 @@
           },
           {
             "time": "15:00",
-            "speed_mph": 9.6
+            "speed_mph": 9.1
           },
           {
             "time": "16:00",
-            "speed_mph": 10.2
+            "speed_mph": 10.3
           },
           {
             "time": "17:00",
-            "speed_mph": 9.8
+            "speed_mph": 9.2
           },
           {
             "time": "18:00",
-            "speed_mph": 8.3
-          },
-          {
-            "time": "19:00",
-            "speed_mph": 8.4
-          },
-          {
-            "time": "20:00",
             "speed_mph": 7.9
           },
           {
+            "time": "19:00",
+            "speed_mph": 6.8
+          },
+          {
+            "time": "20:00",
+            "speed_mph": 5.2
+          },
+          {
             "time": "21:00",
-            "speed_mph": 5.4
+            "speed_mph": 4.2
           },
           {
             "time": "22:00",
-            "speed_mph": 3.0
+            "speed_mph": 2.2
           },
           {
             "time": "23:00",
-            "speed_mph": 2.1
+            "speed_mph": 3.7
           }
         ],
         "wave_chart": [
@@ -921,11 +924,11 @@
             "height_ft": 4.24
           }
         ],
-        "tide_phase": "falling",
+        "tide_phase": "rising",
         "tide_next_event": {
-          "time": "17:02",
-          "height_ft": 0.07,
-          "type": "L"
+          "time": "23:11",
+          "height_ft": 4.25,
+          "type": "H"
         },
         "tide_slack_windows": [
           {
@@ -973,7 +976,7 @@
       "report_text_version": "v2-explanatory-three-paragraph"
     },
     {
-      "generated_at": "2026-09-28T15:17:04",
+      "generated_at": "2026-09-28T20:19:17",
       "spot_slug": "la-jolla",
       "spot_name": "La Jolla",
       "location": "La Jolla, San Diego",
@@ -1062,7 +1065,7 @@
         "rain_24h_in": 0.0,
         "ml_rain_3day_in": 0.0,
         "ml_rain_7day_in": 0.0,
-        "ml_gust_max_mph": 17.2,
+        "ml_gust_max_mph": 16.8,
         "ml_sst_f": 73.6,
         "ml_sin_doy": -0.9994,
         "ml_cos_doy": -0.0333,
@@ -1074,7 +1077,7 @@
         "ml_buoy_energy_wtd": 6.841,
         "ml_wind_dir_deg": 236,
         "ml_upwelling_wind": 0.0,
-        "ml_pressure_trend": -3.1,
+        "ml_pressure_trend": -2.5,
         "ml_sst_anomaly": 3.6,
         "ml_wave_trend": 0.8,
         "ml_wave_accel": 0.3,
@@ -1082,9 +1085,9 @@
         "ml_tide_range_ft": 5.98,
         "ml_tide_morning_avg": 4.03,
         "wave_height_max_ft": 4.79,
-        "wind_speed_mean_mph": 6.46,
-        "wind_speed_max_mph": 10.1,
-        "wind_gust_max_mph": 17.2,
+        "wind_speed_mean_mph": 6.78,
+        "wind_speed_max_mph": 10.6,
+        "wind_gust_max_mph": 16.8,
         "wave_energy_mean_kj": 89.208,
         "wave_energy_max_kj": 89.208,
         "total_swell_height_mean_ft": 3.87,
@@ -1094,110 +1097,110 @@
         "short_period_swell_energy": 1.016,
         "long_period_swell_energy": 88.192,
         "mixed_swell_score": 1,
-        "wind_wave_churn_proxy": 14.216,
-        "wave_energy_wind_interaction": 900.997,
+        "wind_wave_churn_proxy": 14.919,
+        "wave_energy_wind_interaction": 945.601,
         "water_temp_estimate_f": 73.6,
-        "buoy_water_temp_f": 73.4,
+        "buoy_water_temp_f": 74.3,
         "buoy_water_temp_source": "ndbc_46254",
-        "air_temp_max_f": 78.7,
+        "air_temp_max_f": 77.0,
         "air_temp_min_f": 58.9,
         "tide_range_ft": 5.98,
         "wind_chart": [
           {
             "time": "00:00",
-            "speed_mph": 4.3
+            "speed_mph": 4.5
           },
           {
             "time": "01:00",
-            "speed_mph": 5.2
+            "speed_mph": 4.4
           },
           {
             "time": "02:00",
-            "speed_mph": 5.5
+            "speed_mph": 2.6
           },
           {
             "time": "03:00",
-            "speed_mph": 2.2
+            "speed_mph": 4.0
           },
           {
             "time": "04:00",
-            "speed_mph": 2.9
+            "speed_mph": 2.4
           },
           {
             "time": "05:00",
-            "speed_mph": 4.8
+            "speed_mph": 5.1
           },
           {
             "time": "06:00",
-            "speed_mph": 4.6
-          },
-          {
-            "time": "07:00",
-            "speed_mph": 3.4
-          },
-          {
-            "time": "08:00",
-            "speed_mph": 1.1
-          },
-          {
-            "time": "09:00",
-            "speed_mph": 3.7
-          },
-          {
-            "time": "10:00",
             "speed_mph": 5.0
           },
           {
-            "time": "11:00",
-            "speed_mph": 6.7
-          },
-          {
-            "time": "12:00",
-            "speed_mph": 6.4
-          },
-          {
-            "time": "13:00",
+            "time": "07:00",
             "speed_mph": 5.6
           },
           {
+            "time": "08:00",
+            "speed_mph": 2.3
+          },
+          {
+            "time": "09:00",
+            "speed_mph": 1.9
+          },
+          {
+            "time": "10:00",
+            "speed_mph": 4.1
+          },
+          {
+            "time": "11:00",
+            "speed_mph": 5.5
+          },
+          {
+            "time": "12:00",
+            "speed_mph": 7.6
+          },
+          {
+            "time": "13:00",
+            "speed_mph": 7.3
+          },
+          {
             "time": "14:00",
-            "speed_mph": 9.5
+            "speed_mph": 8.4
           },
           {
             "time": "15:00",
-            "speed_mph": 10.1
+            "speed_mph": 10.6
           },
           {
             "time": "16:00",
-            "speed_mph": 9.7
+            "speed_mph": 8.9
           },
           {
             "time": "17:00",
-            "speed_mph": 6.7
+            "speed_mph": 7.2
           },
           {
             "time": "18:00",
-            "speed_mph": 3.0
+            "speed_mph": 4.4
           },
           {
             "time": "19:00",
-            "speed_mph": 3.0
+            "speed_mph": 2.3
           },
           {
             "time": "20:00",
-            "speed_mph": 5.2
+            "speed_mph": 4.9
           },
           {
             "time": "21:00",
-            "speed_mph": 5.2
+            "speed_mph": 5.5
           },
           {
             "time": "22:00",
-            "speed_mph": 5.7
+            "speed_mph": 5.2
           },
           {
             "time": "23:00",
-            "speed_mph": 6.5
+            "speed_mph": 6.0
           }
         ],
         "wave_chart": [
@@ -1419,7 +1422,7 @@
       "report_text_version": "v2-explanatory-three-paragraph"
     },
     {
-      "generated_at": "2026-09-28T15:17:04",
+      "generated_at": "2026-09-28T20:19:17",
       "spot_slug": "la-jolla",
       "spot_name": "La Jolla",
       "location": "La Jolla, San Diego",
@@ -1507,7 +1510,7 @@
         "rain_24h_in": 0.0,
         "ml_rain_3day_in": 0.0,
         "ml_rain_7day_in": 0.0,
-        "ml_gust_max_mph": 14.5,
+        "ml_gust_max_mph": 15.0,
         "ml_sst_f": 73.8,
         "ml_sin_doy": -0.9999,
         "ml_cos_doy": -0.0161,
@@ -1517,9 +1520,9 @@
         "ml_buoy_dir_deg": 233,
         "ml_buoy_exp": 0.956,
         "ml_buoy_energy_wtd": 4.798,
-        "ml_wind_dir_deg": 214,
+        "ml_wind_dir_deg": 202,
         "ml_upwelling_wind": 0.0,
-        "ml_pressure_trend": 2.7,
+        "ml_pressure_trend": 2.2,
         "ml_sst_anomaly": 3.8,
         "ml_wave_trend": 0.61,
         "ml_wave_accel": -0.01,
@@ -1527,9 +1530,9 @@
         "ml_tide_range_ft": 5.72,
         "ml_tide_morning_avg": 3.77,
         "wave_height_max_ft": 3.74,
-        "wind_speed_mean_mph": 5.63,
-        "wind_speed_max_mph": 8.8,
-        "wind_gust_max_mph": 14.5,
+        "wind_speed_mean_mph": 5.57,
+        "wind_speed_max_mph": 8.7,
+        "wind_gust_max_mph": 15.0,
         "wave_energy_mean_kj": 107.77,
         "wave_energy_max_kj": 107.77,
         "total_swell_height_mean_ft": 2.28,
@@ -1539,110 +1542,110 @@
         "short_period_swell_energy": 1.016,
         "long_period_swell_energy": 106.754,
         "mixed_swell_score": 2,
-        "wind_wave_churn_proxy": 12.386,
-        "wave_energy_wind_interaction": 948.372,
+        "wind_wave_churn_proxy": 12.245,
+        "wave_energy_wind_interaction": 937.595,
         "water_temp_estimate_f": 73.8,
-        "buoy_water_temp_f": 73.4,
+        "buoy_water_temp_f": 74.3,
         "buoy_water_temp_source": "ndbc_46254",
-        "air_temp_max_f": 79.4,
-        "air_temp_min_f": 67.3,
+        "air_temp_max_f": 80.3,
+        "air_temp_min_f": 62.9,
         "tide_range_ft": 5.72,
         "wind_chart": [
           {
             "time": "00:00",
-            "speed_mph": 7.2
+            "speed_mph": 5.4
           },
           {
             "time": "01:00",
-            "speed_mph": 6.2
-          },
-          {
-            "time": "02:00",
-            "speed_mph": 6.5
-          },
-          {
-            "time": "03:00",
             "speed_mph": 5.6
           },
           {
+            "time": "02:00",
+            "speed_mph": 5.2
+          },
+          {
+            "time": "03:00",
+            "speed_mph": 4.7
+          },
+          {
             "time": "04:00",
-            "speed_mph": 5.0
-          },
-          {
-            "time": "05:00",
-            "speed_mph": 5.0
-          },
-          {
-            "time": "06:00",
-            "speed_mph": 4.5
-          },
-          {
-            "time": "07:00",
-            "speed_mph": 4.0
-          },
-          {
-            "time": "08:00",
-            "speed_mph": 3.6
-          },
-          {
-            "time": "09:00",
-            "speed_mph": 3.4
-          },
-          {
-            "time": "10:00",
-            "speed_mph": 4.6
-          },
-          {
-            "time": "11:00",
-            "speed_mph": 6.5
-          },
-          {
-            "time": "12:00",
-            "speed_mph": 8.8
-          },
-          {
-            "time": "13:00",
-            "speed_mph": 8.3
-          },
-          {
-            "time": "14:00",
-            "speed_mph": 8.7
-          },
-          {
-            "time": "15:00",
-            "speed_mph": 8.5
-          },
-          {
-            "time": "16:00",
-            "speed_mph": 7.4
-          },
-          {
-            "time": "17:00",
-            "speed_mph": 6.3
-          },
-          {
-            "time": "18:00",
-            "speed_mph": 5.8
-          },
-          {
-            "time": "19:00",
             "speed_mph": 4.9
           },
           {
+            "time": "05:00",
+            "speed_mph": 5.3
+          },
+          {
+            "time": "06:00",
+            "speed_mph": 5.5
+          },
+          {
+            "time": "07:00",
+            "speed_mph": 6.0
+          },
+          {
+            "time": "08:00",
+            "speed_mph": 7.8
+          },
+          {
+            "time": "09:00",
+            "speed_mph": 7.6
+          },
+          {
+            "time": "10:00",
+            "speed_mph": 7.7
+          },
+          {
+            "time": "11:00",
+            "speed_mph": 7.6
+          },
+          {
+            "time": "12:00",
+            "speed_mph": 7.9
+          },
+          {
+            "time": "13:00",
+            "speed_mph": 8.7
+          },
+          {
+            "time": "14:00",
+            "speed_mph": 8.1
+          },
+          {
+            "time": "15:00",
+            "speed_mph": 8.7
+          },
+          {
+            "time": "16:00",
+            "speed_mph": 7.8
+          },
+          {
+            "time": "17:00",
+            "speed_mph": 7.0
+          },
+          {
+            "time": "18:00",
+            "speed_mph": 6.4
+          },
+          {
+            "time": "19:00",
+            "speed_mph": 4.6
+          },
+          {
             "time": "20:00",
-            "speed_mph": 4.3
+            "speed_mph": 2.7
           },
           {
             "time": "21:00",
-            "speed_mph": 3.7
+            "speed_mph": 2.9
           },
           {
             "time": "22:00",
-            "speed_mph": 3.0
+            "speed_mph": 3.6
           },
           {
             "time": "23:00",
-            "speed_mph": 2.2
+            "speed_mph": 3.0
           }
         ],
         "wave_chart": [
@@ -1864,7 +1867,7 @@
       "report_text_version": "v2-explanatory-three-paragraph"
     },
     {
-      "generated_at": "2026-09-28T15:17:05",
+      "generated_at": "2026-09-28T20:19:17",
       "spot_slug": "la-jolla",
       "spot_name": "La Jolla",
       "location": "La Jolla, San Diego",
@@ -1873,24 +1876,24 @@
       "numeric_score_0_100": 61,
       "grade": "C",
       "grade_probabilities": {
-        "F": 0.01162213420212559,
-        "D": 0.40314134597021517,
-        "C": 0.3343997222067971,
-        "B": 0.2508367976208622,
+        "F": 0.011090228332589604,
+        "D": 0.40335830069532036,
+        "C": 0.3345796829092451,
+        "B": 0.2509717880628451,
         "A": 0.0,
         "A+": 0.0
       },
       "raw_grade_probabilities": {
-        "F": 0.01162213420212559,
-        "D": 0.40314134597021517,
-        "C": 0.3343997222067971,
-        "B": 0.2508367976208622,
+        "F": 0.011090228332589604,
+        "D": 0.40335830069532036,
+        "C": 0.3345796829092451,
+        "B": 0.2509717880628451,
         "A": 0.0,
         "A+": 0.0
       },
       "most_likely_grade": {
         "grade": "D",
-        "probability": 0.4031
+        "probability": 0.4034
       },
       "model_source": "soft_probabilistic",
       "display_policy_version": "v4-bimodal-aware",
@@ -1953,7 +1956,7 @@
         "rain_24h_in": 0.0,
         "ml_rain_3day_in": 0.0,
         "ml_rain_7day_in": 0.0,
-        "ml_gust_max_mph": 11.6,
+        "ml_gust_max_mph": 8.7,
         "ml_sst_f": 74.1,
         "ml_sin_doy": -1.0,
         "ml_cos_doy": 0.0011,
@@ -1963,9 +1966,9 @@
         "ml_buoy_dir_deg": 209,
         "ml_buoy_exp": 0.755,
         "ml_buoy_energy_wtd": 3.963,
-        "ml_wind_dir_deg": 307,
-        "ml_upwelling_wind": 0.921,
-        "ml_pressure_trend": 0.4,
+        "ml_wind_dir_deg": 299,
+        "ml_upwelling_wind": 0.857,
+        "ml_pressure_trend": -0.1,
         "ml_sst_anomaly": 7.1,
         "ml_wave_trend": -0.08,
         "ml_wave_accel": -0.62,
@@ -1973,9 +1976,9 @@
         "ml_tide_range_ft": 5.38,
         "ml_tide_morning_avg": 3.54,
         "wave_height_max_ft": 3.08,
-        "wind_speed_mean_mph": 5.89,
-        "wind_speed_max_mph": 9.2,
-        "wind_gust_max_mph": 11.6,
+        "wind_speed_mean_mph": 5.95,
+        "wind_speed_max_mph": 9.3,
+        "wind_gust_max_mph": 8.7,
         "wave_energy_mean_kj": 76.697,
         "wave_energy_max_kj": 76.697,
         "total_swell_height_mean_ft": 2.2,
@@ -1985,110 +1988,110 @@
         "short_period_swell_energy": 0.287,
         "long_period_swell_energy": 76.41,
         "mixed_swell_score": 1,
-        "wind_wave_churn_proxy": 6.701,
-        "wave_energy_wind_interaction": 705.609,
+        "wind_wave_churn_proxy": 6.774,
+        "wave_energy_wind_interaction": 713.279,
         "water_temp_estimate_f": 74.1,
-        "buoy_water_temp_f": 73.4,
+        "buoy_water_temp_f": 74.3,
         "buoy_water_temp_source": "ndbc_46254",
-        "air_temp_max_f": 84.6,
-        "air_temp_min_f": 70.0,
+        "air_temp_max_f": 83.7,
+        "air_temp_min_f": 69.7,
         "tide_range_ft": 5.38,
         "wind_chart": [
           {
             "time": "00:00",
-            "speed_mph": 1.7
-          },
-          {
-            "time": "01:00",
-            "speed_mph": 2.2
-          },
-          {
-            "time": "02:00",
             "speed_mph": 2.5
           },
           {
+            "time": "01:00",
+            "speed_mph": 1.6
+          },
+          {
+            "time": "02:00",
+            "speed_mph": 1.6
+          },
+          {
             "time": "03:00",
-            "speed_mph": 1.7
+            "speed_mph": 2.5
           },
           {
             "time": "04:00",
-            "speed_mph": 2.4
+            "speed_mph": 1.8
           },
           {
             "time": "05:00",
-            "speed_mph": 3.0
+            "speed_mph": 1.6
           },
           {
             "time": "06:00",
-            "speed_mph": 2.7
+            "speed_mph": 1.8
           },
           {
             "time": "07:00",
-            "speed_mph": 2.4
+            "speed_mph": 1.6
           },
           {
             "time": "08:00",
-            "speed_mph": 2.0
+            "speed_mph": 1.9
           },
           {
             "time": "09:00",
-            "speed_mph": 2.9
+            "speed_mph": 2.5
           },
           {
             "time": "10:00",
-            "speed_mph": 4.7
+            "speed_mph": 3.7
           },
           {
             "time": "11:00",
-            "speed_mph": 5.7
-          },
-          {
-            "time": "12:00",
-            "speed_mph": 6.5
-          },
-          {
-            "time": "13:00",
-            "speed_mph": 7.9
-          },
-          {
-            "time": "14:00",
-            "speed_mph": 9.2
-          },
-          {
-            "time": "15:00",
-            "speed_mph": 8.6
-          },
-          {
-            "time": "16:00",
-            "speed_mph": 8.0
-          },
-          {
-            "time": "17:00",
-            "speed_mph": 7.8
-          },
-          {
-            "time": "18:00",
-            "speed_mph": 6.7
-          },
-          {
-            "time": "19:00",
-            "speed_mph": 5.7
-          },
-          {
-            "time": "20:00",
-            "speed_mph": 5.3
-          },
-          {
-            "time": "21:00",
-            "speed_mph": 5.2
-          },
-          {
-            "time": "22:00",
             "speed_mph": 5.6
           },
           {
+            "time": "12:00",
+            "speed_mph": 7.4
+          },
+          {
+            "time": "13:00",
+            "speed_mph": 8.8
+          },
+          {
+            "time": "14:00",
+            "speed_mph": 9.3
+          },
+          {
+            "time": "15:00",
+            "speed_mph": 8.3
+          },
+          {
+            "time": "16:00",
+            "speed_mph": 7.7
+          },
+          {
+            "time": "17:00",
+            "speed_mph": 6.6
+          },
+          {
+            "time": "18:00",
+            "speed_mph": 5.9
+          },
+          {
+            "time": "19:00",
+            "speed_mph": 5.2
+          },
+          {
+            "time": "20:00",
+            "speed_mph": 4.9
+          },
+          {
+            "time": "21:00",
+            "speed_mph": 4.3
+          },
+          {
+            "time": "22:00",
+            "speed_mph": 4.1
+          },
+          {
             "time": "23:00",
-            "speed_mph": 5.3
+            "speed_mph": 4.6
           }
         ],
         "wave_chart": [
@@ -2310,7 +2313,7 @@
       "report_text_version": "v2-explanatory-three-paragraph"
     },
     {
-      "generated_at": "2026-09-28T15:17:05",
+      "generated_at": "2026-09-28T20:19:17",
       "spot_slug": "la-jolla",
       "spot_name": "La Jolla",
       "location": "La Jolla, San Diego",
@@ -2319,24 +2322,24 @@
       "numeric_score_0_100": 61,
       "grade": "C",
       "grade_probabilities": {
-        "F": 0.010016328261806942,
-        "D": 0.46925814160089235,
-        "C": 0.17668180443952675,
-        "B": 0.3440437256977739,
+        "F": 0.010048899785786535,
+        "D": 0.4707840952649764,
+        "C": 0.17725634587623298,
+        "B": 0.34191065907300405,
         "A": 0.0,
         "A+": 0.0
       },
       "raw_grade_probabilities": {
-        "F": 0.010016328261806942,
-        "D": 0.46925814160089235,
-        "C": 0.17668180443952675,
-        "B": 0.3440437256977739,
+        "F": 0.010048899785786535,
+        "D": 0.4707840952649764,
+        "C": 0.17725634587623298,
+        "B": 0.34191065907300405,
         "A": 0.0,
         "A+": 0.0
       },
       "most_likely_grade": {
         "grade": "D",
-        "probability": 0.4693
+        "probability": 0.4708
       },
       "model_source": "soft_probabilistic",
       "display_policy_version": "v4-bimodal-aware",
@@ -2346,7 +2349,7 @@
         14
       ],
       "estimated_visibility_mid_ft": 12.0,
-      "raw_expected_vis_ft": 12.14,
+      "raw_expected_vis_ft": 12.11,
       "guardrail_applied": false,
       "confidence": "medium",
       "best_window": "Early morning to late morning before wind builds",
@@ -2399,7 +2402,7 @@
         "rain_24h_in": 0.0,
         "ml_rain_3day_in": 0.0,
         "ml_rain_7day_in": 0.0,
-        "ml_gust_max_mph": 17.2,
+        "ml_gust_max_mph": 15.0,
         "ml_sst_f": 73.9,
         "ml_sin_doy": -0.9998,
         "ml_cos_doy": 0.0183,
@@ -2409,9 +2412,9 @@
         "ml_buoy_dir_deg": 210,
         "ml_buoy_exp": 0.766,
         "ml_buoy_energy_wtd": 3.933,
-        "ml_wind_dir_deg": 324,
-        "ml_upwelling_wind": 0.995,
-        "ml_pressure_trend": -1.6,
+        "ml_wind_dir_deg": 320,
+        "ml_upwelling_wind": 0.985,
+        "ml_pressure_trend": -0.9,
         "ml_sst_anomaly": 6.9,
         "ml_wave_trend": -0.62,
         "ml_wave_accel": -0.54,
@@ -2421,7 +2424,7 @@
         "wave_height_max_ft": 2.95,
         "wind_speed_mean_mph": 6.4,
         "wind_speed_max_mph": 10.0,
-        "wind_gust_max_mph": 17.2,
+        "wind_gust_max_mph": 15.0,
         "wave_energy_mean_kj": 68.739,
         "wave_energy_max_kj": 68.739,
         "total_swell_height_mean_ft": 2.33,
@@ -2434,83 +2437,83 @@
         "wind_wave_churn_proxy": 18.766,
         "wave_energy_wind_interaction": 687.388,
         "water_temp_estimate_f": 73.9,
-        "buoy_water_temp_f": 73.4,
+        "buoy_water_temp_f": 74.3,
         "buoy_water_temp_source": "ndbc_46254",
-        "air_temp_max_f": 92.5,
-        "air_temp_min_f": 73.5,
+        "air_temp_max_f": 90.7,
+        "air_temp_min_f": 72.0,
         "tide_range_ft": 5.08,
         "wind_chart": [
           {
             "time": "00:00",
-            "speed_mph": 5.1
+            "speed_mph": 4.3
           },
           {
             "time": "01:00",
-            "speed_mph": 4.5
+            "speed_mph": 4.0
           },
           {
             "time": "02:00",
-            "speed_mph": 4.2
+            "speed_mph": 3.9
           },
           {
             "time": "03:00",
-            "speed_mph": 4.1
+            "speed_mph": 4.0
           },
           {
             "time": "04:00",
-            "speed_mph": 4.0
+            "speed_mph": 4.1
           },
           {
             "time": "05:00",
-            "speed_mph": 4.1
+            "speed_mph": 4.3
           },
           {
             "time": "06:00",
-            "speed_mph": 4.1
+            "speed_mph": 3.8
           },
           {
             "time": "07:00",
-            "speed_mph": 4.0
+            "speed_mph": 3.8
           },
           {
             "time": "08:00",
-            "speed_mph": 3.4
+            "speed_mph": 3.2
           },
           {
             "time": "09:00",
-            "speed_mph": 2.9
+            "speed_mph": 3.7
           },
           {
             "time": "10:00",
-            "speed_mph": 3.5
+            "speed_mph": 3.6
           },
           {
             "time": "11:00",
-            "speed_mph": 5.4
+            "speed_mph": 3.8
           },
           {
             "time": "12:00",
-            "speed_mph": 7.1
+            "speed_mph": 6.4
           },
           {
             "time": "13:00",
-            "speed_mph": 7.4
-          },
-          {
-            "time": "14:00",
-            "speed_mph": 8.9
-          },
-          {
-            "time": "15:00",
-            "speed_mph": 9.5
-          },
-          {
-            "time": "16:00",
             "speed_mph": 10.0
           },
           {
+            "time": "14:00",
+            "speed_mph": 9.1
+          },
+          {
+            "time": "15:00",
+            "speed_mph": 9.8
+          },
+          {
+            "time": "16:00",
+            "speed_mph": 9.7
+          },
+          {
             "time": "17:00",
-            "speed_mph": 8.9
+            "speed_mph": 8.7
           },
           {
             "time": "18:00",
@@ -2518,23 +2521,23 @@
           },
           {
             "time": "19:00",
-            "speed_mph": 7.9
-          },
-          {
-            "time": "20:00",
             "speed_mph": 5.8
           },
           {
+            "time": "20:00",
+            "speed_mph": 6.5
+          },
+          {
             "time": "21:00",
-            "speed_mph": 4.4
+            "speed_mph": 6.1
           },
           {
             "time": "22:00",
-            "speed_mph": 4.6
+            "speed_mph": 5.5
           },
           {
             "time": "23:00",
-            "speed_mph": 4.8
+            "speed_mph": 4.7
           }
         ],
         "wave_chart": [
@@ -2756,7 +2759,7 @@
       "report_text_version": "v2-explanatory-three-paragraph"
     },
     {
-      "generated_at": "2026-09-28T15:17:05",
+      "generated_at": "2026-09-28T20:19:17",
       "spot_slug": "la-jolla",
       "spot_name": "La Jolla",
       "location": "La Jolla, San Diego",
@@ -2797,10 +2800,11 @@
       "confidence": "low",
       "best_window": "Early morning to late morning before wind builds",
       "risk_factors": [
-        "Afternoon wind may texture the surface."
+        "No major model risk factors in the parsed feature set."
       ],
       "positive_factors": [
         "Overall swell load is modest.",
+        "Wind looks manageable for the morning window.",
         "Wave energy is on the lower side."
       ],
       "explanation": "Conditions score blends swell, wave energy, and wind with the open sandy shore calibration. La Jolla soft probabilistic model \u2014 development data only.  Prospective validation required before public accuracy claims.  See PROSPECTIVE_VALIDATION_PLAN.md.",
@@ -2845,7 +2849,7 @@
         "rain_24h_in": 0.0,
         "ml_rain_3day_in": 0.0,
         "ml_rain_7day_in": 0.0,
-        "ml_gust_max_mph": 14.5,
+        "ml_gust_max_mph": 15.7,
         "ml_sst_f": 73.8,
         "ml_sin_doy": -0.9994,
         "ml_cos_doy": 0.0355,
@@ -2855,9 +2859,9 @@
         "ml_buoy_dir_deg": 206,
         "ml_buoy_exp": 0.719,
         "ml_buoy_energy_wtd": 1.445,
-        "ml_wind_dir_deg": 323,
-        "ml_upwelling_wind": 0.993,
-        "ml_pressure_trend": -0.9,
+        "ml_wind_dir_deg": 328,
+        "ml_upwelling_wind": 0.999,
+        "ml_pressure_trend": -1.0,
         "ml_sst_anomaly": 6.8,
         "ml_wave_trend": -0.68,
         "ml_wave_accel": -0.11,
@@ -2865,9 +2869,9 @@
         "ml_tide_range_ft": 5.05,
         "ml_tide_morning_avg": 3.41,
         "wave_height_max_ft": 2.89,
-        "wind_speed_mean_mph": 6.53,
-        "wind_speed_max_mph": 10.2,
-        "wind_gust_max_mph": 14.5,
+        "wind_speed_mean_mph": 5.12,
+        "wind_speed_max_mph": 8.0,
+        "wind_gust_max_mph": 15.7,
         "wave_energy_mean_kj": 48.613,
         "wave_energy_max_kj": 48.613,
         "total_swell_height_mean_ft": 1.71,
@@ -2877,90 +2881,90 @@
         "short_period_swell_energy": 0.861,
         "long_period_swell_energy": 47.752,
         "mixed_swell_score": 2,
-        "wind_wave_churn_proxy": 13.386,
-        "wave_energy_wind_interaction": 495.853,
+        "wind_wave_churn_proxy": 10.499,
+        "wave_energy_wind_interaction": 388.904,
         "water_temp_estimate_f": 73.8,
-        "buoy_water_temp_f": 73.4,
+        "buoy_water_temp_f": 74.3,
         "buoy_water_temp_source": "ndbc_46254",
-        "air_temp_max_f": 93.4,
-        "air_temp_min_f": 78.9,
+        "air_temp_max_f": 95.8,
+        "air_temp_min_f": 76.7,
         "tide_range_ft": 5.05,
         "wind_chart": [
           {
             "time": "00:00",
-            "speed_mph": 4.0
+            "speed_mph": 3.7
           },
           {
             "time": "01:00",
-            "speed_mph": 3.1
-          },
-          {
-            "time": "02:00",
-            "speed_mph": 2.4
-          },
-          {
-            "time": "03:00",
-            "speed_mph": 2.3
-          },
-          {
-            "time": "04:00",
-            "speed_mph": 2.7
-          },
-          {
-            "time": "05:00",
-            "speed_mph": 2.9
-          },
-          {
-            "time": "06:00",
-            "speed_mph": 3.0
-          },
-          {
-            "time": "07:00",
-            "speed_mph": 3.0
-          },
-          {
-            "time": "08:00",
-            "speed_mph": 2.7
-          },
-          {
-            "time": "09:00",
-            "speed_mph": 2.2
-          },
-          {
-            "time": "10:00",
             "speed_mph": 3.3
           },
           {
+            "time": "02:00",
+            "speed_mph": 2.9
+          },
+          {
+            "time": "03:00",
+            "speed_mph": 3.1
+          },
+          {
+            "time": "04:00",
+            "speed_mph": 3.6
+          },
+          {
+            "time": "05:00",
+            "speed_mph": 4.3
+          },
+          {
+            "time": "06:00",
+            "speed_mph": 3.9
+          },
+          {
+            "time": "07:00",
+            "speed_mph": 3.6
+          },
+          {
+            "time": "08:00",
+            "speed_mph": 3.3
+          },
+          {
+            "time": "09:00",
+            "speed_mph": 2.7
+          },
+          {
+            "time": "10:00",
+            "speed_mph": 3.2
+          },
+          {
             "time": "11:00",
-            "speed_mph": 5.1
+            "speed_mph": 4.5
           },
           {
             "time": "12:00",
-            "speed_mph": 7.2
+            "speed_mph": 5.7
           },
           {
             "time": "13:00",
-            "speed_mph": 9.2
+            "speed_mph": 6.8
           },
           {
             "time": "14:00",
-            "speed_mph": 10.2
+            "speed_mph": 7.5
           },
           {
             "time": "15:00",
-            "speed_mph": 9.6
+            "speed_mph": 7.8
           },
           {
             "time": "16:00",
-            "speed_mph": 8.4
+            "speed_mph": 8.0
           },
           {
             "time": "17:00",
-            "speed_mph": 7.4
+            "speed_mph": 7.9
           },
           {
             "time": "18:00",
-            "speed_mph": 6.7
+            "speed_mph": 7.2
           },
           {
             "time": "19:00",
@@ -2972,15 +2976,15 @@
           },
           {
             "time": "21:00",
-            "speed_mph": 4.7
+            "speed_mph": 5.3
           },
           {
             "time": "22:00",
-            "speed_mph": 4.3
+            "speed_mph": 5.6
           },
           {
             "time": "23:00",
-            "speed_mph": 4.0
+            "speed_mph": 5.5
           }
         ],
         "wave_chart": [
@@ -3202,43 +3206,43 @@
       "report_text_version": "v2-explanatory-three-paragraph"
     },
     {
-      "generated_at": "2026-09-28T15:17:05",
+      "generated_at": "2026-09-28T20:19:17",
       "spot_slug": "la-jolla",
       "spot_name": "La Jolla",
       "location": "La Jolla, San Diego",
       "region": "California",
       "date": "2026-10-04",
       "numeric_score_0_100": 63,
-      "grade": "B",
+      "grade": "D",
       "grade_probabilities": {
         "F": 0.0,
-        "D": 0.4040486612248934,
-        "C": 0.1726998084834088,
-        "B": 0.42325153029169776,
+        "D": 0.4200635908698849,
+        "C": 0.17216259904064862,
+        "B": 0.40777381008946656,
         "A": 0.0,
         "A+": 0.0
       },
       "raw_grade_probabilities": {
         "F": 0.0,
-        "D": 0.4040486612248934,
-        "C": 0.1726998084834088,
-        "B": 0.42325153029169776,
+        "D": 0.4200635908698849,
+        "C": 0.17216259904064862,
+        "B": 0.40777381008946656,
         "A": 0.0,
         "A+": 0.0
       },
       "most_likely_grade": {
-        "grade": "B",
-        "probability": 0.4233
+        "grade": "D",
+        "probability": 0.4201
       },
       "model_source": "soft_probabilistic",
       "display_policy_version": "v4-bimodal-aware",
       "display_override": null,
       "estimated_visibility_range_ft": [
-        15,
-        24
+        5,
+        9
       ],
-      "estimated_visibility_mid_ft": 19.5,
-      "raw_expected_vis_ft": 13.15,
+      "estimated_visibility_mid_ft": 7.0,
+      "raw_expected_vis_ft": 12.96,
       "guardrail_applied": false,
       "confidence": "low",
       "best_window": "Early morning to late morning before wind builds",
@@ -3253,7 +3257,7 @@
       "is_projected": false,
       "projected_from": null,
       "forecast_basis": "Open-Meteo marine components (coherent hourly swell)",
-      "report_text": "The model expects 15-24 ft of visibility, resulting in a B grade. Conditions are favorable overall, with dry recent conditions and an easing wave trend supporting useful clarity. Some swell energy, surface movement and wind-driven mixing keep the forecast below exceptional A-grade conditions.\n\nThe tide contribution is more neutral because a reliable direction is not available. The next tide change could still change nearshore water movement, so local clarity may vary.\n\nOverall, the forecast is favorable for diving. Sheltered coves and deeper water may hold the clearest conditions, while exposed coastline and sandy entries could be less consistent.",
+      "report_text": "The model expects 5-9 ft of visibility, resulting in a D grade. Conditions are marginal, with swell energy, surface movement and wind-driven mixing creating significant pressure on visibility.\n\nThe tide contribution is more neutral because a reliable direction is not available. The next tide change could still change nearshore water movement, so local clarity may vary.\n\nOverall, visibility looks marginal. Divers should confirm local conditions before committing and favor sheltered coves or deeper water over shallow, sandy, or surge-exposed areas.",
       "features": {
         "date": "2026-10-04",
         "coherent_swell_source": "hourly_max_height_event",
@@ -3291,7 +3295,7 @@
         "rain_24h_in": 0.0,
         "ml_rain_3day_in": 0.0,
         "ml_rain_7day_in": 0.0,
-        "ml_gust_max_mph": 19.0,
+        "ml_gust_max_mph": 17.9,
         "ml_sst_f": 73.7,
         "ml_sin_doy": -0.9986,
         "ml_cos_doy": 0.0527,
@@ -3301,9 +3305,9 @@
         "ml_buoy_dir_deg": 214,
         "ml_buoy_exp": 0.809,
         "ml_buoy_energy_wtd": 2.873,
-        "ml_wind_dir_deg": 26,
-        "ml_upwelling_wind": 0.559,
-        "ml_pressure_trend": -1.8,
+        "ml_wind_dir_deg": 14,
+        "ml_upwelling_wind": 0.719,
+        "ml_pressure_trend": -0.3,
         "ml_sst_anomaly": 6.7,
         "ml_wave_trend": -0.77,
         "ml_wave_accel": -0.18,
@@ -3311,9 +3315,9 @@
         "ml_tide_range_ft": 4.95,
         "ml_tide_morning_avg": 3.56,
         "wave_height_max_ft": 3.02,
-        "wind_speed_mean_mph": 8.58,
-        "wind_speed_max_mph": 13.4,
-        "wind_gust_max_mph": 19.0,
+        "wind_speed_mean_mph": 6.34,
+        "wind_speed_max_mph": 9.9,
+        "wind_gust_max_mph": 17.9,
         "wave_energy_mean_kj": 80.027,
         "wave_energy_max_kj": 80.027,
         "total_swell_height_mean_ft": 1.75,
@@ -3323,110 +3327,110 @@
         "short_period_swell_energy": 0.24,
         "long_period_swell_energy": 79.787,
         "mixed_swell_score": 2,
-        "wind_wave_churn_proxy": 8.177,
-        "wave_energy_wind_interaction": 1072.366,
+        "wind_wave_churn_proxy": 6.041,
+        "wave_energy_wind_interaction": 792.27,
         "water_temp_estimate_f": 73.7,
-        "buoy_water_temp_f": 73.4,
+        "buoy_water_temp_f": 74.3,
         "buoy_water_temp_source": "ndbc_46254",
-        "air_temp_max_f": 106.2,
-        "air_temp_min_f": 79.7,
+        "air_temp_max_f": 104.5,
+        "air_temp_min_f": 83.0,
         "tide_range_ft": 4.95,
         "wind_chart": [
           {
             "time": "00:00",
-            "speed_mph": 3.8
+            "speed_mph": 4.4
           },
           {
             "time": "01:00",
-            "speed_mph": 3.9
+            "speed_mph": 3.4
           },
           {
             "time": "02:00",
-            "speed_mph": 3.9
-          },
-          {
-            "time": "03:00",
-            "speed_mph": 3.6
-          },
-          {
-            "time": "04:00",
-            "speed_mph": 3.4
-          },
-          {
-            "time": "05:00",
-            "speed_mph": 3.4
-          },
-          {
-            "time": "06:00",
-            "speed_mph": 3.4
-          },
-          {
-            "time": "07:00",
-            "speed_mph": 3.3
-          },
-          {
-            "time": "08:00",
             "speed_mph": 3.2
           },
           {
-            "time": "09:00",
-            "speed_mph": 2.6
+            "time": "03:00",
+            "speed_mph": 3.0
           },
           {
-            "time": "10:00",
-            "speed_mph": 2.1
+            "time": "04:00",
+            "speed_mph": 2.8
           },
           {
-            "time": "11:00",
-            "speed_mph": 2.3
+            "time": "05:00",
+            "speed_mph": 2.7
           },
           {
-            "time": "12:00",
-            "speed_mph": 2.9
+            "time": "06:00",
+            "speed_mph": 3.2
           },
           {
-            "time": "13:00",
+            "time": "07:00",
             "speed_mph": 3.9
           },
           {
+            "time": "08:00",
+            "speed_mph": 4.0
+          },
+          {
+            "time": "09:00",
+            "speed_mph": 2.9
+          },
+          {
+            "time": "10:00",
+            "speed_mph": 2.8
+          },
+          {
+            "time": "11:00",
+            "speed_mph": 3.2
+          },
+          {
+            "time": "12:00",
+            "speed_mph": 2.8
+          },
+          {
+            "time": "13:00",
+            "speed_mph": 5.7
+          },
+          {
             "time": "14:00",
-            "speed_mph": 5.3
+            "speed_mph": 7.9
           },
           {
             "time": "15:00",
-            "speed_mph": 8.5
+            "speed_mph": 6.9
           },
           {
             "time": "16:00",
-            "speed_mph": 12.3
+            "speed_mph": 7.9
           },
           {
             "time": "17:00",
-            "speed_mph": 13.4
+            "speed_mph": 9.9
           },
           {
             "time": "18:00",
-            "speed_mph": 9.8
+            "speed_mph": 8.1
           },
           {
             "time": "19:00",
-            "speed_mph": 6.5
+            "speed_mph": 6.3
           },
           {
             "time": "20:00",
-            "speed_mph": 8.0
+            "speed_mph": 7.0
           },
           {
             "time": "21:00",
-            "speed_mph": 7.7
+            "speed_mph": 6.6
           },
           {
             "time": "22:00",
-            "speed_mph": 5.8
+            "speed_mph": 5.6
           },
           {
             "time": "23:00",
-            "speed_mph": 5.2
+            "speed_mph": 5.4
           }
         ],
         "wave_chart": [
@@ -3648,7 +3652,7 @@
       "report_text_version": "v2-explanatory-three-paragraph"
     },
     {
-      "generated_at": "2026-09-28T15:17:05",
+      "generated_at": "2026-09-28T20:19:17",
       "spot_slug": "la-jolla",
       "spot_name": "La Jolla",
       "location": "La Jolla, San Diego",
@@ -3657,24 +3661,24 @@
       "numeric_score_0_100": 63,
       "grade": "C",
       "grade_probabilities": {
-        "F": 0.015010033870426594,
-        "D": 0.4026644119286295,
-        "C": 0.1272038845971288,
-        "B": 0.45512166960381495,
+        "F": 0.011127650319174889,
+        "D": 0.4067678108829956,
+        "C": 0.12850017071426317,
+        "B": 0.4536043680835663,
         "A": 0.0,
         "A+": 0.0
       },
       "raw_grade_probabilities": {
-        "F": 0.015010033870426594,
-        "D": 0.4026644119286295,
-        "C": 0.1272038845971288,
-        "B": 0.45512166960381495,
+        "F": 0.011127650319174889,
+        "D": 0.4067678108829956,
+        "C": 0.12850017071426317,
+        "B": 0.4536043680835663,
         "A": 0.0,
         "A+": 0.0
       },
       "most_likely_grade": {
         "grade": "B",
-        "probability": 0.4551
+        "probability": 0.4536
       },
       "model_source": "soft_probabilistic",
       "display_policy_version": "v4-bimodal-aware",
@@ -3737,7 +3741,7 @@
         "rain_24h_in": 0.0,
         "ml_rain_3day_in": 0.0,
         "ml_rain_7day_in": 0.0,
-        "ml_gust_max_mph": 15.4,
+        "ml_gust_max_mph": 10.7,
         "ml_sst_f": 73.5,
         "ml_sin_doy": -0.9976,
         "ml_cos_doy": 0.0698,
@@ -3747,9 +3751,9 @@
         "ml_buoy_dir_deg": 175,
         "ml_buoy_exp": 0.259,
         "ml_buoy_energy_wtd": 3.892,
-        "ml_wind_dir_deg": 199,
-        "ml_upwelling_wind": 0.0,
-        "ml_pressure_trend": 0.0,
+        "ml_wind_dir_deg": 291,
+        "ml_upwelling_wind": 0.777,
+        "ml_pressure_trend": 0.5,
         "ml_sst_anomaly": 6.5,
         "ml_wave_trend": -0.52,
         "ml_wave_accel": 0.1,
@@ -3757,9 +3761,9 @@
         "ml_tide_range_ft": 5.43,
         "ml_tide_morning_avg": 3.84,
         "wave_height_max_ft": 4.07,
-        "wind_speed_mean_mph": 7.74,
-        "wind_speed_max_mph": 12.1,
-        "wind_gust_max_mph": 15.4,
+        "wind_speed_mean_mph": 6.53,
+        "wind_speed_max_mph": 10.2,
+        "wind_gust_max_mph": 10.7,
         "wave_energy_mean_kj": 128.102,
         "wave_energy_max_kj": 128.102,
         "total_swell_height_mean_ft": 3.75,
@@ -3769,22 +3773,22 @@
         "short_period_swell_energy": 0.056,
         "long_period_swell_energy": 128.045,
         "mixed_swell_score": 1,
-        "wind_wave_churn_proxy": 3.454,
-        "wave_energy_wind_interaction": 1550.029,
+        "wind_wave_churn_proxy": 2.911,
+        "wave_energy_wind_interaction": 1306.636,
         "water_temp_estimate_f": 73.5,
-        "buoy_water_temp_f": 73.4,
+        "buoy_water_temp_f": 74.3,
         "buoy_water_temp_source": "ndbc_46254",
-        "air_temp_max_f": 97.7,
-        "air_temp_min_f": 85.5,
+        "air_temp_max_f": 98.7,
+        "air_temp_min_f": 86.5,
         "tide_range_ft": 5.43,
         "wind_chart": [
           {
             "time": "00:00",
-            "speed_mph": 5.2
+            "speed_mph": 5.0
           },
           {
             "time": "01:00",
-            "speed_mph": 5.0
+            "speed_mph": 4.9
           },
           {
             "time": "02:00",
@@ -3796,7 +3800,7 @@
           },
           {
             "time": "04:00",
-            "speed_mph": 5.6
+            "speed_mph": 5.8
           },
           {
             "time": "05:00",
@@ -3804,31 +3808,31 @@
           },
           {
             "time": "06:00",
-            "speed_mph": 5.3
+            "speed_mph": 5.2
           },
           {
             "time": "07:00",
-            "speed_mph": 4.8
-          },
-          {
-            "time": "08:00",
             "speed_mph": 4.3
           },
           {
+            "time": "08:00",
+            "speed_mph": 3.3
+          },
+          {
             "time": "09:00",
-            "speed_mph": 3.7
+            "speed_mph": 2.9
           },
           {
             "time": "10:00",
-            "speed_mph": 2.8
+            "speed_mph": 4.0
           },
           {
             "time": "11:00",
-            "speed_mph": 1.1
+            "speed_mph": 5.3
           },
           {
             "time": "12:00",
-            "speed_mph": 3.2
+            "speed_mph": 6.8
           },
           {
             "time": "13:00",
@@ -3836,11 +3840,11 @@
           },
           {
             "time": "14:00",
-            "speed_mph": 12.1
+            "speed_mph": 10.2
           },
           {
             "time": "15:00",
-            "speed_mph": 11.2
+            "speed_mph": 9.6
           },
           {
             "time": "16:00",
@@ -3848,31 +3852,31 @@
           },
           {
             "time": "17:00",
-            "speed_mph": 5.7
+            "speed_mph": 6.5
           },
           {
             "time": "18:00",
-            "speed_mph": 4.7
+            "speed_mph": 5.0
           },
           {
             "time": "19:00",
-            "speed_mph": 4.2
+            "speed_mph": 3.3
           },
           {
             "time": "20:00",
-            "speed_mph": 3.7
+            "speed_mph": 1.9
           },
           {
             "time": "21:00",
-            "speed_mph": 3.1
+            "speed_mph": 1.7
           },
           {
             "time": "22:00",
-            "speed_mph": 2.7
+            "speed_mph": 2.4
           },
           {
             "time": "23:00",
-            "speed_mph": 2.5
+            "speed_mph": 2.9
           }
         ],
         "wave_chart": [
@@ -4094,33 +4098,33 @@
       "report_text_version": "v2-explanatory-three-paragraph"
     },
     {
-      "generated_at": "2026-09-28T15:17:05",
+      "generated_at": "2026-09-28T20:19:17",
       "spot_slug": "la-jolla",
       "spot_name": "La Jolla",
       "location": "La Jolla, San Diego",
       "region": "California",
       "date": "2026-10-06",
-      "numeric_score_0_100": 64,
+      "numeric_score_0_100": 63,
       "grade": "C",
       "grade_probabilities": {
-        "F": 0.01019329232130179,
-        "D": 0.4485563297352539,
-        "C": 0.018574498010483807,
-        "B": 0.5226758799329604,
+        "F": 0.01320817430605299,
+        "D": 0.4657303570107967,
+        "C": 0.019367189810021043,
+        "B": 0.5016942788731292,
         "A": 0.0,
         "A+": 0.0
       },
       "raw_grade_probabilities": {
-        "F": 0.01019329232130179,
-        "D": 0.4485563297352539,
-        "C": 0.018574498010483807,
-        "B": 0.5226758799329604,
+        "F": 0.01320817430605299,
+        "D": 0.4657303570107967,
+        "C": 0.019367189810021043,
+        "B": 0.5016942788731292,
         "A": 0.0,
         "A+": 0.0
       },
       "most_likely_grade": {
         "grade": "B",
-        "probability": 0.5227
+        "probability": 0.5017
       },
       "model_source": "soft_probabilistic",
       "display_policy_version": "v4-bimodal-aware",
@@ -4130,7 +4134,7 @@
         14
       ],
       "estimated_visibility_mid_ft": 12.0,
-      "raw_expected_vis_ft": 13.58,
+      "raw_expected_vis_ft": 13.31,
       "guardrail_applied": false,
       "confidence": "medium",
       "best_window": "Early morning to late morning before wind builds",
@@ -4177,13 +4181,13 @@
         "ml_wave_2d_ago_ft": 2.77,
         "ml_wave_3d_ago_ft": 2.67,
         "ml_wave_7d_avg_ft": 3.14,
-        "rain_target_day_forecast_in": 0.047,
+        "rain_target_day_forecast_in": 0.0,
         "rain_prior_3day_in": 0.0,
         "rain_prior_7day_in": 0.0,
-        "rain_24h_in": 0.047,
+        "rain_24h_in": 0.0,
         "ml_rain_3day_in": 0.0,
         "ml_rain_7day_in": 0.0,
-        "ml_gust_max_mph": 15.4,
+        "ml_gust_max_mph": 9.4,
         "ml_sst_f": 73.3,
         "ml_sin_doy": -0.9962,
         "ml_cos_doy": 0.087,
@@ -4193,9 +4197,9 @@
         "ml_buoy_dir_deg": 174,
         "ml_buoy_exp": 0.242,
         "ml_buoy_energy_wtd": 4.089,
-        "ml_wind_dir_deg": 213,
-        "ml_upwelling_wind": 0.0,
-        "ml_pressure_trend": 1.8,
+        "ml_wind_dir_deg": 293,
+        "ml_upwelling_wind": 0.799,
+        "ml_pressure_trend": 0.7,
         "ml_sst_anomaly": 6.3,
         "ml_wave_trend": -0.01,
         "ml_wave_accel": 0.36,
@@ -4203,9 +4207,9 @@
         "ml_tide_range_ft": 5.66,
         "ml_tide_morning_avg": 4.19,
         "wave_height_max_ft": 4.33,
-        "wind_speed_mean_mph": 6.21,
-        "wind_speed_max_mph": 9.7,
-        "wind_gust_max_mph": 15.4,
+        "wind_speed_mean_mph": 5.76,
+        "wind_speed_max_mph": 9.0,
+        "wind_gust_max_mph": 9.4,
         "wave_energy_mean_kj": 142.463,
         "wave_energy_max_kj": 142.463,
         "total_swell_height_mean_ft": 4.01,
@@ -4215,42 +4219,42 @@
         "short_period_swell_energy": 0.056,
         "long_period_swell_energy": 142.407,
         "mixed_swell_score": 1,
-        "wind_wave_churn_proxy": 2.769,
-        "wave_energy_wind_interaction": 1381.894,
+        "wind_wave_churn_proxy": 2.569,
+        "wave_energy_wind_interaction": 1282.169,
         "water_temp_estimate_f": 73.3,
-        "buoy_water_temp_f": 73.4,
+        "buoy_water_temp_f": 74.3,
         "buoy_water_temp_source": "ndbc_46254",
-        "air_temp_max_f": 96.4,
-        "air_temp_min_f": 79.9,
+        "air_temp_max_f": 98.9,
+        "air_temp_min_f": 81.9,
         "tide_range_ft": 5.66,
         "wind_chart": [
           {
             "time": "00:00",
-            "speed_mph": 2.8
+            "speed_mph": 3.1
           },
           {
             "time": "01:00",
-            "speed_mph": 3.6
+            "speed_mph": 3.5
           },
           {
             "time": "02:00",
-            "speed_mph": 3.8
+            "speed_mph": 4.0
           },
           {
             "time": "03:00",
-            "speed_mph": 2.8
+            "speed_mph": 4.3
           },
           {
             "time": "04:00",
-            "speed_mph": 1.6
+            "speed_mph": 4.2
           },
           {
             "time": "05:00",
-            "speed_mph": 1.7
+            "speed_mph": 3.9
           },
           {
             "time": "06:00",
-            "speed_mph": 1.8
+            "speed_mph": 3.7
           },
           {
             "time": "07:00",
@@ -4258,67 +4262,67 @@
           },
           {
             "time": "08:00",
-            "speed_mph": 3.5
+            "speed_mph": 2.3
           },
           {
             "time": "09:00",
-            "speed_mph": 1.7
+            "speed_mph": 0.7
           },
           {
             "time": "10:00",
-            "speed_mph": 2.0
+            "speed_mph": 2.7
           },
           {
             "time": "11:00",
-            "speed_mph": 5.0
+            "speed_mph": 4.9
           },
           {
             "time": "12:00",
-            "speed_mph": 7.2
+            "speed_mph": 6.6
           },
           {
             "time": "13:00",
-            "speed_mph": 9.0
-          },
-          {
-            "time": "14:00",
-            "speed_mph": 9.7
-          },
-          {
-            "time": "15:00",
-            "speed_mph": 9.2
-          },
-          {
-            "time": "16:00",
-            "speed_mph": 8.7
-          },
-          {
-            "time": "17:00",
-            "speed_mph": 8.8
-          },
-          {
-            "time": "18:00",
-            "speed_mph": 8.7
-          },
-          {
-            "time": "19:00",
             "speed_mph": 8.1
           },
           {
+            "time": "14:00",
+            "speed_mph": 9.0
+          },
+          {
+            "time": "15:00",
+            "speed_mph": 8.4
+          },
+          {
+            "time": "16:00",
+            "speed_mph": 7.1
+          },
+          {
+            "time": "17:00",
+            "speed_mph": 5.8
+          },
+          {
+            "time": "18:00",
+            "speed_mph": 4.9
+          },
+          {
+            "time": "19:00",
+            "speed_mph": 4.2
+          },
+          {
             "time": "20:00",
-            "speed_mph": 6.9
+            "speed_mph": 3.8
           },
           {
             "time": "21:00",
-            "speed_mph": 4.7
+            "speed_mph": 3.6
           },
           {
             "time": "22:00",
-            "speed_mph": 2.6
+            "speed_mph": 3.8
           },
           {
             "time": "23:00",
-            "speed_mph": 2.8
+            "speed_mph": 4.2
           }
         ],
         "wave_chart": [
@@ -4540,50 +4544,48 @@
       "report_text_version": "v2-explanatory-three-paragraph"
     },
     {
-      "generated_at": "2026-09-28T15:17:05",
+      "generated_at": "2026-09-28T20:19:17",
       "spot_slug": "la-jolla",
       "spot_name": "La Jolla",
       "location": "La Jolla, San Diego",
       "region": "California",
       "date": "2026-10-07",
-      "numeric_score_0_100": 62,
-      "grade": "D",
+      "numeric_score_0_100": 63,
+      "grade": "B",
       "grade_probabilities": {
         "F": 0.0,
-        "D": 0.42442224779193455,
-        "C": 0.2394469089592242,
-        "B": 0.33613084324884124,
+        "D": 0.3726397347711448,
+        "C": 0.19568623073286018,
+        "B": 0.431674034495995,
         "A": 0.0,
         "A+": 0.0
       },
       "raw_grade_probabilities": {
         "F": 0.0,
-        "D": 0.42442224779193455,
-        "C": 0.2394469089592242,
-        "B": 0.33613084324884124,
+        "D": 0.3726397347711448,
+        "C": 0.19568623073286018,
+        "B": 0.431674034495995,
         "A": 0.0,
         "A+": 0.0
       },
       "most_likely_grade": {
-        "grade": "D",
-        "probability": 0.4244
+        "grade": "B",
+        "probability": 0.4317
       },
       "model_source": "soft_probabilistic",
       "display_policy_version": "v4-bimodal-aware",
       "display_override": null,
       "estimated_visibility_range_ft": [
-        5,
-        9
+        15,
+        24
       ],
-      "estimated_visibility_mid_ft": 7.0,
-      "raw_expected_vis_ft": 12.4,
+      "estimated_visibility_mid_ft": 19.5,
+      "raw_expected_vis_ft": 13.37,
       "guardrail_applied": false,
       "confidence": "low",
       "best_window": "Early morning to late morning before wind builds",
       "risk_factors": [
-        "Elevated surf can stir up the shallows.",
-        "Afternoon wind may texture the surface.",
-        "Recent rain can reduce nearshore clarity."
+        "Elevated surf can stir up the shallows."
       ],
       "positive_factors": [
         "Longer-period swell is easier to time around than short chop."
@@ -4592,12 +4594,12 @@
       "is_projected": true,
       "projected_from": null,
       "forecast_basis": "Open-Meteo marine components (coherent hourly swell)",
-      "report_text": "The model expects 5-9 ft of visibility, resulting in a D grade. Conditions are marginal, with swell energy, surface movement and wind-driven mixing creating significant pressure on visibility.\n\nThe tide contribution is more neutral because a reliable direction is not available. The next tide change could still change nearshore water movement, so local clarity may vary.\n\nOverall, visibility looks marginal. Divers should confirm local conditions before committing and favor sheltered coves or deeper water over shallow, sandy, or surge-exposed areas.",
+      "report_text": "The model expects 15-24 ft of visibility, resulting in a B grade. Conditions are favorable overall, with dry recent conditions supporting useful clarity. Some swell energy, surface movement and wind-driven mixing keep the forecast below exceptional A-grade conditions.\n\nThe tide contribution is more neutral because a reliable direction is not available. The next tide change could still change nearshore water movement, so local clarity may vary.\n\nOverall, the forecast is favorable for diving. Sheltered coves and deeper water may hold the clearest conditions, while exposed coastline and sandy entries could be less consistent.",
       "features": {
         "date": "2026-10-07",
         "coherent_swell_source": "hourly_max_height_event",
-        "surf_height_mean_ft": 4.07,
-        "surf_height_max_ft": 4.07,
+        "surf_height_mean_ft": 3.87,
+        "surf_height_max_ft": 3.87,
         "primary_swell_height_mean_ft": 3.41,
         "primary_swell_height_max_ft": 3.41,
         "primary_swell_period_mean_s": 10.4,
@@ -4624,13 +4626,13 @@
         "ml_wave_2d_ago_ft": 3.13,
         "ml_wave_3d_ago_ft": 2.77,
         "ml_wave_7d_avg_ft": 3.12,
-        "rain_target_day_forecast_in": 0.201,
-        "rain_prior_3day_in": 0.047,
-        "rain_prior_7day_in": 0.047,
-        "rain_24h_in": 0.201,
-        "ml_rain_3day_in": 0.047,
-        "ml_rain_7day_in": 0.047,
-        "ml_gust_max_mph": 9.8,
+        "rain_target_day_forecast_in": 0.0,
+        "rain_prior_3day_in": 0.0,
+        "rain_prior_7day_in": 0.0,
+        "rain_24h_in": 0.0,
+        "ml_rain_3day_in": 0.0,
+        "ml_rain_7day_in": 0.0,
+        "ml_gust_max_mph": 11.2,
         "ml_sst_f": 73.6,
         "ml_sin_doy": -0.9946,
         "ml_cos_doy": 0.1041,
@@ -4640,108 +4642,108 @@
         "ml_buoy_dir_deg": 190,
         "ml_buoy_exp": 0.5,
         "ml_buoy_energy_wtd": 6.054,
-        "ml_wind_dir_deg": 311,
-        "ml_upwelling_wind": 0.946,
-        "ml_pressure_trend": 0.8,
+        "ml_wind_dir_deg": 268,
+        "ml_upwelling_wind": 0.469,
+        "ml_pressure_trend": 1.8,
         "ml_sst_anomaly": 6.6,
         "ml_wave_trend": 0.81,
         "ml_wave_accel": 0.8,
         "ml_tide_min_ft": -0.07,
         "ml_tide_range_ft": 5.52,
         "ml_tide_morning_avg": 4.52,
-        "wave_height_max_ft": 4.07,
-        "wind_speed_mean_mph": 6.72,
-        "wind_speed_max_mph": 10.5,
-        "wind_gust_max_mph": 9.8,
-        "wave_energy_mean_kj": 123.916,
-        "wave_energy_max_kj": 123.916,
+        "wave_height_max_ft": 3.87,
+        "wind_speed_mean_mph": 5.44,
+        "wind_speed_max_mph": 8.5,
+        "wind_gust_max_mph": 11.2,
+        "wave_energy_mean_kj": 112.205,
+        "wave_energy_max_kj": 112.205,
         "total_swell_height_mean_ft": 3.41,
         "total_swell_height_max_ft": 3.41,
-        "swell_power_proxy_mean": 123.916,
-        "swell_power_proxy_max": 123.916,
+        "swell_power_proxy_mean": 112.205,
+        "swell_power_proxy_max": 112.205,
         "short_period_swell_energy": 0.0,
-        "long_period_swell_energy": 123.916,
+        "long_period_swell_energy": 112.205,
         "mixed_swell_score": 1,
         "wind_wave_churn_proxy": 0.0,
-        "wave_energy_wind_interaction": 1301.119,
+        "wave_energy_wind_interaction": 953.742,
         "water_temp_estimate_f": 73.6,
-        "buoy_water_temp_f": 73.4,
+        "buoy_water_temp_f": 74.3,
         "buoy_water_temp_source": "ndbc_46254",
-        "air_temp_max_f": 92.8,
-        "air_temp_min_f": 78.6,
+        "air_temp_max_f": 92.9,
+        "air_temp_min_f": 80.2,
         "tide_range_ft": 5.52,
         "wind_chart": [
           {
             "time": "00:00",
-            "speed_mph": 2.9
+            "speed_mph": 4.4
           },
           {
             "time": "01:00",
-            "speed_mph": 2.1
+            "speed_mph": 4.7
           },
           {
             "time": "02:00",
-            "speed_mph": 1.6
+            "speed_mph": 4.5
           },
           {
             "time": "03:00",
-            "speed_mph": 2.1
+            "speed_mph": 2.9
           },
           {
             "time": "04:00",
-            "speed_mph": 3.0
+            "speed_mph": 1.3
           },
           {
             "time": "05:00",
-            "speed_mph": 3.8
+            "speed_mph": 1.9
           },
           {
             "time": "06:00",
-            "speed_mph": 4.0
+            "speed_mph": 2.4
           },
           {
             "time": "07:00",
-            "speed_mph": 3.9
-          },
-          {
-            "time": "08:00",
-            "speed_mph": 3.4
-          },
-          {
-            "time": "09:00",
-            "speed_mph": 2.6
-          },
-          {
-            "time": "10:00",
-            "speed_mph": 2.6
-          },
-          {
-            "time": "11:00",
             "speed_mph": 2.2
           },
           {
+            "time": "08:00",
+            "speed_mph": 2.4
+          },
+          {
+            "time": "09:00",
+            "speed_mph": 2.9
+          },
+          {
+            "time": "10:00",
+            "speed_mph": 4.0
+          },
+          {
+            "time": "11:00",
+            "speed_mph": 5.0
+          },
+          {
             "time": "12:00",
-            "speed_mph": 1.8
+            "speed_mph": 6.4
           },
           {
             "time": "13:00",
-            "speed_mph": 6.5
+            "speed_mph": 7.8
           },
           {
             "time": "14:00",
-            "speed_mph": 10.0
+            "speed_mph": 8.5
           },
           {
             "time": "15:00",
-            "speed_mph": 10.5
+            "speed_mph": 8.1
           },
           {
             "time": "16:00",
-            "speed_mph": 9.2
+            "speed_mph": 7.1
           },
           {
             "time": "17:00",
-            "speed_mph": 7.5
+            "speed_mph": 6.2
           },
           {
             "time": "18:00",
@@ -4749,23 +4751,23 @@
           },
           {
             "time": "19:00",
-            "speed_mph": 2.0
+            "speed_mph": 4.1
           },
           {
             "time": "20:00",
-            "speed_mph": 0.0
+            "speed_mph": 3.6
           },
           {
             "time": "21:00",
-            "speed_mph": 1.1
+            "speed_mph": 3.5
           },
           {
             "time": "22:00",
-            "speed_mph": 3.2
+            "speed_mph": 3.6
           },
           {
             "time": "23:00",
-            "speed_mph": 4.3
+            "speed_mph": 3.6
           }
         ],
         "wave_chart": [
