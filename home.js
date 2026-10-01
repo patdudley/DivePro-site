@@ -367,6 +367,12 @@ function pacificDate(value) {
   return `${lookup.year}-${lookup.month}-${lookup.day}`;
 }
 
+function upcomingPacificDates(dates, today = pacificDate(new Date().toISOString())) {
+  const unique = [...new Set((dates || []).filter(Boolean))];
+  const upcoming = unique.filter((date) => date >= today);
+  return upcoming.length ? upcoming : unique.slice(-1);
+}
+
 function frameDate(frame) {
   return frame.localDate || pacificDate(frame.valid_utc);
 }
@@ -1344,21 +1350,27 @@ function setupWindTimeline(layer, manifest, frameCache) {
     return;
   }
 
-  const currentIndex = defaultFrameIndex(frames);
-  let activeIndex = currentIndex;
-  let windowStartIndex = activeIndex;
-  let playTimer;
-  let requestToken = 0;
-  let tickResizeTimer;
-  const mobileTimelineQuery = window.matchMedia("(max-width: 640px)");
-  windTimeline.classList.toggle("is-hidden", frames.length < 2);
-
   frames.forEach((forecastFrame) => {
     forecastFrame.localDate = frameDate(forecastFrame);
     forecastFrame.dayLabel = frameDayLabel(forecastFrame);
   });
 
-  const timelineDates = [...new Set(frames.map((forecastFrame) => forecastFrame.localDate).filter(Boolean))];
+  const today = pacificDate(new Date().toISOString());
+  const timelineDates = upcomingPacificDates(
+    frames.map((forecastFrame) => forecastFrame.localDate),
+    today
+  );
+  const preferredIndex = defaultFrameIndex(frames);
+  const currentIndex = (frames[preferredIndex]?.localDate || "") >= today
+    ? preferredIndex
+    : Math.max(0, frames.findIndex((forecastFrame) => (forecastFrame.localDate || "") >= today));
+  let activeIndex = currentIndex;
+  let windowStartIndex = currentIndex;
+  let playTimer;
+  let requestToken = 0;
+  let tickResizeTimer;
+  const mobileTimelineQuery = window.matchMedia("(max-width: 640px)");
+  windTimeline.classList.toggle("is-hidden", frames.length < 2);
 
   function firstIndexForDate(date) {
     return frames.findIndex((forecastFrame) => forecastFrame.localDate === date);
