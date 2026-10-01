@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T14:23:58",
+  "generated_at": "2026-10-01T19:09:37",
   "spot_slug": "la-jolla",
   "spot_name": "La Jolla",
   "location": "La Jolla, San Diego",
@@ -88,7 +88,7 @@
     "rain_24h_in": 0.0,
     "ml_rain_3day_in": 0.0,
     "ml_rain_7day_in": 0.0,
-    "ml_gust_max_mph": 13.9,
+    "ml_gust_max_mph": 13.2,
     "ml_sst_f": 73.3,
     "ml_sin_doy": -1.0,
     "ml_cos_doy": 0.0011,
@@ -98,8 +98,8 @@
     "ml_buoy_dir_deg": 206,
     "ml_buoy_exp": 0.719,
     "ml_buoy_energy_wtd": 4.957,
-    "ml_wind_dir_deg": 343,
-    "ml_upwelling_wind": 0.974,
+    "ml_wind_dir_deg": 342,
+    "ml_upwelling_wind": 0.978,
     "ml_pressure_trend": 1.4,
     "ml_sst_anomaly": 6.3,
     "ml_wave_trend": -0.08,
@@ -108,9 +108,9 @@
     "ml_tide_range_ft": 5.38,
     "ml_tide_morning_avg": 3.54,
     "wave_height_max_ft": 3.41,
-    "wind_speed_mean_mph": 7.49,
-    "wind_speed_max_mph": 11.7,
-    "wind_gust_max_mph": 13.9,
+    "wind_speed_mean_mph": 7.04,
+    "wind_speed_max_mph": 11.0,
+    "wind_gust_max_mph": 13.2,
     "wave_energy_mean_kj": 103.523,
     "wave_energy_max_kj": 103.523,
     "total_swell_height_mean_ft": 2.38,
@@ -120,12 +120,12 @@
     "short_period_swell_energy": 0.194,
     "long_period_swell_energy": 103.329,
     "mixed_swell_score": 2,
-    "wind_wave_churn_proxy": 6.909,
-    "wave_energy_wind_interaction": 1211.217,
+    "wind_wave_churn_proxy": 6.496,
+    "wave_energy_wind_interaction": 1138.751,
     "water_temp_estimate_f": 73.3,
-    "buoy_water_temp_f": 72.7,
+    "buoy_water_temp_f": 73.0,
     "buoy_water_temp_source": "ndbc_46254",
-    "air_temp_max_f": 74.9,
+    "air_temp_max_f": 75.0,
     "air_temp_min_f": 63.3,
     "tide_range_ft": 5.38,
     "wind_chart": [
@@ -155,75 +155,75 @@
       },
       {
         "time": "06:00",
-        "speed_mph": 3.2
+        "speed_mph": 3.3
       },
       {
         "time": "07:00",
-        "speed_mph": 2.7
+        "speed_mph": 1.4
       },
       {
         "time": "08:00",
-        "speed_mph": 4.7
+        "speed_mph": 1.4
       },
       {
         "time": "09:00",
-        "speed_mph": 5.1
+        "speed_mph": 4.7
       },
       {
         "time": "10:00",
-        "speed_mph": 6.5
+        "speed_mph": 4.0
       },
       {
         "time": "11:00",
-        "speed_mph": 7.6
+        "speed_mph": 7.3
       },
       {
         "time": "12:00",
-        "speed_mph": 8.4
+        "speed_mph": 8.7
       },
       {
         "time": "13:00",
-        "speed_mph": 9.8
+        "speed_mph": 9.1
       },
       {
         "time": "14:00",
-        "speed_mph": 10.7
+        "speed_mph": 10.4
       },
       {
         "time": "15:00",
-        "speed_mph": 11.7
+        "speed_mph": 11.0
       },
       {
         "time": "16:00",
-        "speed_mph": 10.6
+        "speed_mph": 9.5
       },
       {
         "time": "17:00",
-        "speed_mph": 8.3
+        "speed_mph": 7.7
       },
       {
         "time": "18:00",
-        "speed_mph": 6.5
+        "speed_mph": 6.7
       },
       {
         "time": "19:00",
-        "speed_mph": 5.9
+        "speed_mph": 6.9
       },
       {
         "time": "20:00",
-        "speed_mph": 6.0
+        "speed_mph": 6.2
       },
       {
         "time": "21:00",
-        "speed_mph": 5.8
+        "speed_mph": 7.3
       },
       {
         "time": "22:00",
-        "speed_mph": 6.1
+        "speed_mph": 7.2
       },
       {
         "time": "23:00",
-        "speed_mph": 5.4
+        "speed_mph": 6.1
       }
     ],
     "wave_chart": [
@@ -473,10 +473,13 @@
   "camera_note": "Updated a few times daily from the Scripps Pier cam.",
   "report_text_version": "v2-explanatory-three-paragraph",
   "community_report": {
-    "visibility_ft": null,
-    "weight": 0.0,
+    "visibility_ft": [
+      2,
+      3
+    ],
+    "weight": 0.2,
     "confidence_label": "low",
-    "source_excerpt": null,
+    "source_excerpt": "Vis: 10ft -15ftSwell:\u00a0 2- 3 ftSurface Temp: 71.8 \u00b0F High Tide 5.7 ft ~ 12:12 pmLow Tide 0.3 ft ~ 8:13 pm\u00a0 Happy lobster season eve! Visibility locally is looking much improved this morning with blue water at the moment...",
     "error": null
   }
 }
