@@ -353,6 +353,12 @@
     return `${lookup.year}-${lookup.month}-${lookup.day}`;
   }
 
+  function upcomingPacificDates(dates, today = pacificDate(new Date().toISOString())) {
+    const unique = [...new Set((dates || []).filter(Boolean))];
+    const upcoming = unique.filter((date) => date >= today);
+    return upcoming.length ? upcoming : unique.slice(-1);
+  }
+
   function frameDate(frame) {
     return frame.localDate || pacificDate(frame.valid_utc);
   }
@@ -836,8 +842,15 @@
       forecastFrame.localDate = frameDate(forecastFrame);
     });
 
-    const timelineDates = [...new Set(frames.map((forecastFrame) => forecastFrame.localDate).filter(Boolean))];
-    const currentIndex = defaultFrameIndex(frames);
+    const today = pacificDate(new Date().toISOString());
+    const timelineDates = upcomingPacificDates(
+      frames.map((forecastFrame) => forecastFrame.localDate),
+      today
+    );
+    const preferredIndex = defaultFrameIndex(frames);
+    const currentIndex = (frames[preferredIndex]?.localDate || "") >= today
+      ? preferredIndex
+      : Math.max(0, frames.findIndex((forecastFrame) => (forecastFrame.localDate || "") >= today));
     let activeIndex = currentIndex;
     let windowStartIndex = Math.max(0, frames.findIndex((forecastFrame) => forecastFrame.localDate === frames[currentIndex]?.localDate));
     let playTimer;
@@ -1126,6 +1139,7 @@
     }
 
     function moveToTimelineDate(date, preferSunrise = false) {
+      if (!date || !timelineDates.includes(date)) return false;
       const startIndex = startIndexForDate(date);
       if (startIndex < 0) return false;
       windowStartIndex = startIndex;
